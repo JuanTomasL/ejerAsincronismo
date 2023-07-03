@@ -1,0 +1,89 @@
+#container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+       
+          
+}
+#container img{
+    width: 200px;
+          
+}
+
+header{
+    background-color: rgb(49, 71, 61);
+    border-radius: 10px;
+    border: 5px solid rgb(36, 6, 6);
+    box-shadow: 8px 8px 12px rgb(41, 41, 38);
+    
+}
+h1{
+    
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+    color: rgb(5, 5, 5);
+}
+
+body{
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+img{
+    margin: 5px;
+    border-radius: 10px;
+    border: 5px solid  rgb(5, 5, 5);
+    box-shadow: 8px 8px 12px rgb(35, 35, 29);
+     
+}
+
+h2{
+    max-width: 200px;
+    margin: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 5px solid rgb(5, 5, 5);
+    box-shadow: 8px 8px 12px rgb(35, 35, 29);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+p{
+    margin: 5px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    max-width: 200px;
+    border: 2px solid rgb(5, 5, 5);
+    box-shadow: 8px 8px 12px rgb(35, 35, 29);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.precio{
+    margin: 5px;
+    font-weight: bold;
+    max-width: 150px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+div{
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid rgb(5, 5, 5);
+    box-shadow: 8px 8px 12px rgb(35, 35, 29);
+
+}
+
+.etiqueta ,.titulo{
+background-color: rgb(164, 164, 218);
+}
